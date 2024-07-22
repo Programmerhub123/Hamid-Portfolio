@@ -1,0 +1,42 @@
+.about-section {
+  padding: 20px;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+
+.about-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  justify-content: center;
+
+}
+
+.arrow {
+  transition: transform 0.3s ease;
+}
+
+.arrow.open {
+  transform: rotate(180deg);
+}
+
+.about-content {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.about-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+.about-content h2 {
+  text-align: center;
+}

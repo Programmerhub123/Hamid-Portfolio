@@ -1,0 +1,59 @@
+.education-section {
+  background-color: #ffffff;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.education-header {
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.education-header h2 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.dropdown-icon {
+  margin-top: 0.5rem;
+  font-size: 1.5rem;
+  transition: transform 0.3s ease;
+}
+
+.education-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.education-item {
+  background-color: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.education-item h3 {
+  font-size: 1.5rem;
+  margin: 0;
+  color: #007bff;
+}
+
+.institution, .year, .details {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+  color: #555;
+}
+
+.institution {
+  font-weight: bold;
+}
+
+.year {
+  color: #007bff;
+}
